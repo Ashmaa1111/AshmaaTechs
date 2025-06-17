@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashmaa Techs | Premium Tech Accessories</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="black-gold">
+  <!-- Header -->
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="Ashmaa Logo" class="logo-icon">
+      Ashmaa <span>Techs</span>
+    </a>
+    
+    <button class="mobile-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+          <div class="marquee">
+             <p>Thank you for visiting Ashmaa Techs. Note: This website is currently under construction and will be launched soon along with the official launch of Ashmaa Techs.</p>
+           </div>
+
+
+    <div class="nav-buttons">
+      <button class="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </button>
+      <button id="theme-toggle" title="Toggle Theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Smart. <span>Stylish.</span> Sound.</h1>
+        <p>Luxury meets technology in our premium AirPods and Watches. Experience unparalleled quality and design that complements your lifestyle.</p>
+        <a href="products.html" class="btn">Explore Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Us</h2>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Our Story</h3>
+          <p>Ashmaa Techs delivers high-quality, stylish, and affordable tech accessories. Our AirPods and Watches are designed to complement your lifestyle, combining innovation with elegance.</p>
+          <p>Born from the idea that style and innovation should be accessible to everyone, Ashmaa Techs was created to blend high-performance tech with modern design. Our products are designed for trendsetters, go-getters, and tech lovers who demand more from their gear.</p>
+          
+          <div class="mission">
+            <p><b>Mission:</b> Deliver smart gadgets with unmatched value.</p>
+            <p><b>Vision:</b> Empower users with innovative, everyday tech.</p>
+            <p><b>Promise:</b> Build a community that's always connected, always ahead.</p>
+          </div>
+        </div>
+        
+        <div class="about-image"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured-products">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Products</h2>
+      </div>
+      
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-id="airpods-pro" data-category="airpods">
+          <span class="product-badge">Bestseller</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa AirPods Pro">
+          </div>
+          <div class="product-info">
+            <h3>Ashmaa AirPods Pro</h3>
+            <p>Active Noise Cancellation, Spatial Audio, Adaptive EQ</p>
+            <div class="product-price">
+              <div class="price">$129.99</div>
+              <button class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product-card" data-id="watch-pro" data-category="watches">
+          <span class="product-badge">New</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa Watch Pro">
+          </div>
+          <div class="product-info">
+            <h3>Ashmaa Watch Pro</h3>
+            <p>Heart rate monitor, sleep tracking, 10-day battery</p>
+            <div class="product-price">
+              <div class="price">$149.99</div>
+              <button class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card" data-id="airpods-max" data-category="airpods">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa AirPods Max">
+          </div>
+          <div class="product-info">
+            <h3>Ashmaa AirPods Max</h3>
+            <p>Premium over-ear headphones, Hi-Fi Audio, 40hr battery</p>
+            <div class="product-price">
+              <div class="price">$199.99</div>
+              <button class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product-card" data-id="watch-classic" data-category="watches">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa Watch Classic">
+          </div>
+          <div class="product-info">
+            <h3>Ashmaa Watch Classic</h3>
+            <p>Timeless design, fitness tracking, notifications</p>
+            <div class="product-price">
+              <div class="price">$119.99</div>
+              <button class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="products.html" class="btn">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Customers Say</h2>
+      </div>
+      
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            The Ashmaa AirPods Pro are simply outstanding. The noise cancellation works better than I expected, and the sound quality is crisp and clear. Plus, they look incredibly stylish!
+          </div>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+            </div>
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <p>Verified Customer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4>Our Location</h4>
+              <p>Haripur,KPK,PAKISTAN</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <p>+9233483.....</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <p>support@ashmaatech.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday-Friday: 9AM - 6PM</p>
+              <p>Saturday: 10AM - 4PM</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="How can we help?">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" placeholder="I'd like to inquire about..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Ashmaa Techs</h3>
+          <p>Premium tech accessories designed for the modern lifestyle. Combining innovation, style, and affordability.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Products</h3>
+          <ul class="footer-links">
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Smart Watches</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Customer Service</h3>
+          <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Warranty</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>Subscribe to get special offers, free giveaways, and new product alerts.</p>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input type="email" placeholder="Your email address" required>
+            </div>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; 2025 Ashmaa Techs. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Ashmaa Techs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="black-gold">
+    <!-- Header -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="Ashmaa Logo" class="logo-icon">
+            Ashmaa <span>Techs</span>
+        </a>
+        
+        <button class="mobile-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="marquee">
+           <p>Thank you for visiting Ashmaa Techs. Note: This website is currently under construction and will be launched soon along with the official launch of Ashmaa Techs.</p>
+        </div>
+        <div class="nav-buttons">
+            <button class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </button>
+            <button id="theme-toggle" title="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premium <span>Tech Collection</span></h1>
+                <p>Discover our range of cutting-edge AirPods and Smart Watches designed for your lifestyle</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-title">
+                <h2>All Products</h2>
+                <p>Explore our premium tech accessories collection</p>
+            </div>
+            
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="airpods">AirPods</button>
+                <button class="filter-btn" data-category="watches">Watches</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+            </div>
+            
+            <div class="product-grid">
+                <!-- AirPods Pro -->
+                <div class="product-card" data-id="airpods-pro" data-category="airpods">
+                    <span class="product-badge">Bestseller</span>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa AirPods Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa AirPods Pro</h3>
+                        <p>Active Noise Cancellation, Spatial Audio, Adaptive EQ</p>
+                        <div class="product-price">
+                            <div class="price">$79.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Pro -->
+                <div class="product-card" data-id="watch-pro" data-category="watches">
+                    <span class="product-badge">New</span>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa Watch Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa Watch Pro</h3>
+                        <p>Heart rate monitor, sleep tracking, 10-day battery</p>
+                        <div class="product-price">
+                            <div class="price">$149.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AirPods Max -->
+                <div class="product-card" data-id="airpods-max" data-category="airpods">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa AirPods Max">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa AirPods Max</h3>
+                        <p>Premium over-ear headphones, Hi-Fi Audio, 40hr battery</p>
+                        <div class="product-price">
+                            <div class="price">$76.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Classic -->
+                <div class="product-card" data-id="watch-classic" data-category="watches">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa Watch Classic">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa Watch Classic</h3>
+                        <p>Timeless design, fitness tracking, notifications</p>
+                        <div class="product-price">
+                            <div class="price">$44.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AirPods Lite -->
+                <div class="product-card" data-id="airpods-lite" data-category="airpods">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa AirPods Lite">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa AirPods Lite</h3>
+                        <p>Lightweight design, 6hr battery, crystal clear sound</p>
+                        <div class="product-price">
+                            <div class="price">$40.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Sport -->
+                <div class="product-card" data-id="watch-sport" data-category="watches">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ashmaa Watch Sport">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ashmaa Watch Sport</h3>
+                        <p>Water resistant, GPS tracking, activity modes</p>
+                        <div class="product-price">
+                            <div class="price">$45.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charging Case -->
+                <div class="product-card" data-id="charging-case" data-category="accessories">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wireless Charging Case">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Charging Case</h3>
+                        <p>Fast wireless charging, portable design, LED indicators</p>
+                        <div class="product-price">
+                            <div class="price">$39.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Bands -->
+                <div class="product-card" data-id="watch-bands" data-category="accessories">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Premium Watch Bands">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Watch Bands</h3>
+                        <p>Leather & silicone options, quick-release, comfortable fit</p>
+                        <div class="product-price">
+                            <div class="price">$29.99</div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Specs -->
+    <section class="tech-specs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technology & Specifications</h2>
+                <p>Discover the innovation behind our products</p>
+            </div>
+            
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Long Battery Life</h3>
+                    <p>Up to 40 hours of battery life with our premium devices</p>
+                </div>
+                
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <i class="fas fa-bluetooth-b"></i>
+                    </div>
+                    <h3>Bluetooth 5.3</h3>
+                    <p>Fast, stable connections with the latest Bluetooth technology</p>
+                </div>
+                
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Water Resistant</h3>
+                    <p>IP68 rating for protection against water and dust</p>
+                </div>
+                
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Noise Cancellation</h3>
+                    <p>Active noise cancellation for crystal clear audio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ashmaa Techs</h3>
+                    <p>Premium tech accessories designed for the modern lifestyle. Combining innovation, style, and affordability.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">AirPods</a></li>
+                        <li><a href="#">Smart Watches</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get special offers, free giveaways, and new product alerts.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email address" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Ashmaa Techs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
